@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.mohdeva.sendit.receiveActivity">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:text="Receive The File"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_marginTop="38dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter The Ip of the Sender"
+            android:layout_below="@+id/textView2"
+            android:layout_alignStart="@+id/textView2" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_below="@+id/address"
+            android:layout_alignStart="@+id/address"
+            android:layout_marginTop="35dp"
+            android:id="@+id/port"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/port"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Connect..."
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/actionModeSplitBackground"
+        android:onClick="QrScanner"
+        android:text="Scan"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:id="@+id/button2"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:layout_alignTop="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="24sp"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/connect"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
