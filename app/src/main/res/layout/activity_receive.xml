@@ -30,23 +30,21 @@
 
         <TextView
             android:text="TextView"
-            android:layout_below="@+id/address"
-            android:layout_alignStart="@+id/address"
-            android:layout_marginTop="35dp"
             android:id="@+id/port"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/address"
+            android:layout_alignParentStart="true" />
 
     <Button
         android:id="@+id/connect"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/port"
-        android:layout_marginTop="25dp"
         android:background="@color/colorPrimaryDark"
         android:text="Connect..."
-        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="match_parent"
@@ -76,5 +74,16 @@
         android:layout_marginTop="41dp"
         android:layout_below="@+id/connect"
         android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/filename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/port"
+        android:ems="10"
+        android:hint="Enter File Name"
+        android:inputType="textPersonName" />
 
 </RelativeLayout>

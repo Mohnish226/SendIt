@@ -39,10 +39,14 @@ public class sendActivity extends AppCompatActivity {
     ServerSocket serverSocket;
     ServerSocketThread serverSocketThread;
     ImageView imageView;
+    String fileName = new String();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_send);
+
+        fileName="test.txt";
+
         infoIp = (TextView) findViewById(R.id.infoip);
         infoPort = (TextView) findViewById(R.id.infoport);
         imageView=(ImageView) findViewById(R.id.imageView);
@@ -50,7 +54,6 @@ public class sendActivity extends AppCompatActivity {
 
         serverSocketThread = new ServerSocketThread();
         serverSocketThread.start();
-
 
     }
 
@@ -89,10 +92,15 @@ public class sendActivity extends AppCompatActivity {
                         ip += "Enter This Location on the Receiver: "
                                 + inetAddress.getHostAddress() + "\n";
                         String text2Qr = inetAddress.getHostAddress();
+                        StringBuilder toQr = new StringBuilder();
+                        toQr.append(text2Qr);
+                        toQr.append("::");
+                        toQr.append(fileName);
                         //Toast.makeText(sendActivity.this, text2Qr, Toast.LENGTH_LONG).show();
+
                         MultiFormatWriter multiFormatWriter = new MultiFormatWriter();
                         try {
-                            BitMatrix bitMatrix = multiFormatWriter.encode(text2Qr, BarcodeFormat.QR_CODE,200,200);
+                            BitMatrix bitMatrix = multiFormatWriter.encode(toQr.toString(), BarcodeFormat.QR_CODE,200,200);
                             BarcodeEncoder barcodeEncoder = new BarcodeEncoder();
                             Bitmap bitmap = barcodeEncoder.createBitmap(bitMatrix);
                             imageView.setImageBitmap(bitmap);
@@ -167,8 +175,7 @@ public class sendActivity extends AppCompatActivity {
         public void run() {
             File file = new File(
                     Environment.getExternalStorageDirectory(),
-                    "test.txt");
-            //Toast.makeText(sendActivity.this, file.toString(), Toast.LENGTH_LONG).show();
+                    fileName);
 
             byte[] bytes = new byte[(int) file.length()];
             BufferedInputStream bis;
