@@ -40,12 +40,26 @@ public class sendActivity extends AppCompatActivity {
     ServerSocketThread serverSocketThread;
     ImageView imageView;
     String fileName = new String();
+    String nameString=new String();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_send);
 
-        fileName="test.txt";
+        if (savedInstanceState == null) {
+            Bundle extras = getIntent().getExtras();
+            if(extras == null) {
+                nameString= null;
+            } else {
+                nameString= extras.getString("Data");
+            }
+        } else {
+            nameString= (String) savedInstanceState.getSerializable("Data");
+        }
+        String[] Dir = nameString.split("/");
+        fileName=Dir[Dir.length-1];
+
+        Toast.makeText(getApplicationContext(), nameString, Toast.LENGTH_SHORT).show();
 
         infoIp = (TextView) findViewById(R.id.infoip);
         infoPort = (TextView) findViewById(R.id.infoport);
@@ -175,7 +189,7 @@ public class sendActivity extends AppCompatActivity {
         public void run() {
             File file = new File(
                     Environment.getExternalStorageDirectory(),
-                    fileName);
+                    nameString);
 
             byte[] bytes = new byte[(int) file.length()];
             BufferedInputStream bis;

@@ -8,6 +8,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -29,6 +30,11 @@
         </activity>
         <activity android:name=".sendActivity" />
         <activity android:name=".receiveActivity" />
+        <activity android:name=".Video_Activity" />
+        <activity android:name=".Music_Activity" />
+        <activity android:name=".Image_Activity" />
+        <activity android:name=".pdf_activity" />
+        <activity android:name=".FileBrowser" />
     </application>
 
 </manifest>

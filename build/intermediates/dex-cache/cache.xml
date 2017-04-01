@@ -12,138 +12,30 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Mohnish_Devadiga/.android/build-cache/bc39eb0f153f86c193f9ec94bf68278ea183e7cd/output/jars/classes.jar"
+        jar="/Users/Mohnish_Devadiga/.android/build-cache/58e26bc1ba037b81a93ab04312eb29319433ed5d/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0cae6511c5705869cacf199f8abb0ea84cd10157">
-        <dex dex="/Users/Mohnish_Devadiga/AndroidStudioProjects/SendIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6f5e9642da216f62fac846d94c7d22ca3cd88142/classes.dex" />
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Users/Mohnish_Devadiga/AndroidStudioProjects/SendIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_de8841ac3e3cfb0d4e2b576275a4852986e12b42/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Mohnish_Devadiga/.android/build-cache/0e03116cf6813b72dc4576298b768d13bfca9c03/output/jars/classes.jar"
+        jar="/Users/Mohnish_Devadiga/.android/build-cache/eba2547e6033783bbe41a44379fdf12ebbbe9ff9/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/Users/Mohnish_Devadiga/AndroidStudioProjects/SendIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_27c8ca7bad7f5d10be6f43011c91bd99278ac7fb/classes.dex" />
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Users/Mohnish_Devadiga/AndroidStudioProjects/SendIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8fd10e8ea127a65429cb32659a57cd5926d28ec1/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Mohnish_Devadiga/.android/build-cache/b6e8607044564a77c814a2fd0dfcac639d8a1686/output/jars/classes.jar"
+        jar="/Users/Mohnish_Devadiga/.android/build-cache/7cca72aeff0350f45810db647b1bfa020ad05765/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="4a36600281a648769411ef642c331851732bf29e">
-        <dex dex="/Users/Mohnish_Devadiga/AndroidStudioProjects/SendIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7fe0937181954fc273972a475f280dcd39be0d73/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Mohnish_Devadiga/.android/build-cache/c102053caed2bade3d54e8d9bd71cee5bc08e9c6/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/Users/Mohnish_Devadiga/AndroidStudioProjects/SendIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_02341812c4b3582c430baba59a82e804901542d5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Mohnish_Devadiga/.android/build-cache/5699ad9c80c836537a57b2fed59024db678e76d1/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/Users/Mohnish_Devadiga/AndroidStudioProjects/SendIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b976326c49330114cdee17590c0b5322e7623e50/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Mohnish_Devadiga/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
-        <dex dex="/Users/Mohnish_Devadiga/AndroidStudioProjects/SendIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/core-3.2.1_e00a5de06007b589182b6f9e2be4f98aa3d818ef/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Mohnish_Devadiga/.android/build-cache/38869089ff17ef98354ab47aacbc27a5cf9faa8c/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/Users/Mohnish_Devadiga/AndroidStudioProjects/SendIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6c8d6eddcdd0990d211ae172c878d1bd1a90c7bf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Mohnish_Devadiga/.android/build-cache/d69ff3490a8e1060b1844689d1744de4b4047e8b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d4ce6303165f20650850673bd5891fbcca80caae">
-        <dex dex="/Users/Mohnish_Devadiga/AndroidStudioProjects/SendIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_828f65174d94aa4afced3b43d4790b45048dc3ab/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Mohnish_Devadiga/.android/build-cache/3bd8716a0e5e87561f84dd63587d6d9820dfe4c5/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/Users/Mohnish_Devadiga/AndroidStudioProjects/SendIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c5af6bdcbc595667e69e60b5ab381a8b35084c74/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Mohnish_Devadiga/.android/build-cache/f3016bb56354f86a538d5c4d0245cb3586b0fa5c/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/Users/Mohnish_Devadiga/AndroidStudioProjects/SendIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_26632510fffae242ffb305b31d4a441e21ff2958/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Mohnish_Devadiga/.android/build-cache/310c79a6144777bed854fe8b2c016e154d1007e6/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="68ef1daf85c69fca8fddf7bbb947fc51cc9f8ca3">
-        <dex dex="/Users/Mohnish_Devadiga/AndroidStudioProjects/SendIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_60aa1b0004983eff0489f6af56c31a1da3260349/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Mohnish_Devadiga/.android/build-cache/4413b3657220ebd2e6b5c40e2b80d6222aec6b76/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/Users/Mohnish_Devadiga/AndroidStudioProjects/SendIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_352db170eba1d311e58013946f7e588698444187/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Mohnish_Devadiga/.android/build-cache/95681c682549d9a998aee0e788a1cc7ace43d9be/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="af8d42f1f020e936b8cd9f5cb6c75993194895a3">
-        <dex dex="/Users/Mohnish_Devadiga/AndroidStudioProjects/SendIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5a01dcc484a55dc816c40a18dfbabd4d283bad55/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Mohnish_Devadiga/.android/build-cache/a5a087c4f40a93a79f99e69a4acf910ac9304dd3/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
-        <dex dex="/Users/Mohnish_Devadiga/AndroidStudioProjects/SendIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_28f01695271b14b0866f6da3c4893c5049736886/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Mohnish_Devadiga/.android/build-cache/d20633f74b13d0b7b22424d999c99586224caa12/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/Mohnish_Devadiga/AndroidStudioProjects/SendIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_19a15a9e0635e5509b0aaaef2a4352fa8a1eb17d/classes.dex" />
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/Users/Mohnish_Devadiga/AndroidStudioProjects/SendIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_62b1b36acab4d6b4a12dd2d1060a0a5499bfe4d3/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -151,26 +43,8 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0ee9bfdbc449963e23f72e4e48daab01eaf4dfa0">
+        sha1="d8a0a651d8bf0a69d4c462c2c0183b3e9edc1cfa">
         <dex dex="/Users/Mohnish_Devadiga/AndroidStudioProjects/SendIt/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_566c0520f8fcee050c6b59e14941fa8e74b868c5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Mohnish_Devadiga/.android/build-cache/37416be6f3eb9997bcf0fbeee4a7a3f17020ec2b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
-        <dex dex="/Users/Mohnish_Devadiga/AndroidStudioProjects/SendIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e781168f071cafd04163b3935fabdc99f1709a10/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Mohnish_Devadiga/.android/build-cache/b1f02c409dc024c1eb009fc645e0988195defe1f/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/Users/Mohnish_Devadiga/AndroidStudioProjects/SendIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1caf3730c4c17f46add3ef1dc1625c66dfc35181/classes.dex" />
     </item>
 
 </items>

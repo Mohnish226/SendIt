@@ -27,11 +27,15 @@ public class MainActivity extends AppCompatActivity {
         sen=(Button)findViewById(R.id.btnSend);
         rec=(Button)findViewById(R.id.btnRec);
 
+
+
         sen.setOnClickListener(new View.OnClickListener(){
 
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, sendActivity.class);
+//                Intent i = new Intent(MainActivity.this, sendActivity.class);
+//                startActivity(i);
+                Intent i = new Intent(MainActivity.this, FileBrowser.class);
                 startActivity(i);
             }
 
@@ -50,6 +54,8 @@ public class MainActivity extends AppCompatActivity {
     private  boolean checkAndRequestPermissions() {
         int camera = ContextCompat.checkSelfPermission(this, android.Manifest.permission.CAMERA);
         int storage = ContextCompat.checkSelfPermission(this, android.Manifest.permission.WRITE_EXTERNAL_STORAGE);
+        int wstorage = ContextCompat.checkSelfPermission(this, android.Manifest.permission.READ_EXTERNAL_STORAGE);
+
         List<String> listPermissionsNeeded = new ArrayList<>();
 
         if (camera != PackageManager.PERMISSION_GRANTED) {
@@ -57,6 +63,9 @@ public class MainActivity extends AppCompatActivity {
         }
         if (storage != PackageManager.PERMISSION_GRANTED) {
             listPermissionsNeeded.add(android.Manifest.permission.WRITE_EXTERNAL_STORAGE);
+        }
+        if (wstorage != PackageManager.PERMISSION_GRANTED) {
+            listPermissionsNeeded.add(android.Manifest.permission.READ_EXTERNAL_STORAGE);
         }
         if (!listPermissionsNeeded.isEmpty())
         {
