@@ -1,5 +1,11 @@
 # SendIt
-Android File Transfer using QR Code And Sockets on a local network
+Android File Transfer Application for file transfer on a local network
+
+## Technology Used
+* Android
+* Sockets
+* QR Code 
+
 
 ### File Browser
 ![File Browser](http://i.imgur.com/u2VgCme.jpg)
