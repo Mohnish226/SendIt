@@ -8,10 +8,10 @@ Android File Transfer Application for file transfer on a local network
 
 
 ### File Browser
-![File Browser](http://i.imgur.com/u2VgCme.jpg)
+![File Browser](https://raw.githubusercontent.com/Mohnish226/SendIt/master/Screens/File%20Browser.jpeg)
 ### Send Screen
-![Send Screen](http://i.imgur.com/1mwZkdr.jpg)
+![Send Screen](https://raw.githubusercontent.com/Mohnish226/SendIt/master/Screens/Send%20Screen.jpeg)
 ### Scan to Receive
-![Scan to Receive](http://i.imgur.com/aJCc0B8.jpg)
+![Scan to Receive](https://raw.githubusercontent.com/Mohnish226/SendIt/master/Screens/Scan%20to%20Receive.jpeg)
 ### Manual Receive
-![Manual Receive](http://i.imgur.com/KNANrSj.jpg)
+![Manual Receive](https://raw.githubusercontent.com/Mohnish226/SendIt/master/Screens/Manual%20Receive.jpeg)
